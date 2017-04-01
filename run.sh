@@ -3,7 +3,6 @@
 # This step will run your project tests
 #
 #   Variables used:
-#     $FLOW_ENABLE_FAILURE
 #
 #   Outputs:
 #
