@@ -8,11 +8,7 @@ tags:
   - python
   - test
 inputs:
-  - name: FLOW_ENABLE_FAILURE
-    editable: true
-    options:
-      - TRUE
-      - FALSE
+
 outputs:
 script_path: ./run.sh  
   
