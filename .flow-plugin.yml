@@ -8,9 +8,9 @@ tags:
   - python
   - test
 inputs:
-  -name: python_test
-  desc_en: "Run test use `make test`"
-  desc_cn: "本插件主要是测试，执行的命令是`make test`，此插件会把测试的详细信息会以日志的形式输出出来 注意事项 假如使用的测试命令与本插件不符，可以删除此插件添加自定义插件写上相应的测试命令"
+  - name: python_test
+    desc_en: "Run test use `make test`"
+    desc_cn: "本插件主要是测试，执行的命令是`make test`，此插件会把测试的详细信息会以日志的形式输出出来 注意事项 假如使用的测试命令与本插件不符，可以删除此插件添加自定义插件写上相应的测试命令"
 
 outputs:
 script_path: ./run.sh  
